@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Тури Карпатами</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="p.css">
+</head>
+<body>
+
+  <h2 class="main-title">Найкращі тури Карпатами</h2>
+
+  <div class="programs-container">
+    <div class="program-card">
+      <img src="https://images.unsplash.com/photo-1601383517344-8912d01e74d1" alt="Говерла">
+      <h2>Похід на Говерлу</h2>
+      <p>3 дні, ночівля в наметах</p>
+      <span class="price">₴2 500</span>
+      <button class="order-btn">Замовити</button>
+    </div>
+
+    <div class="program-card">
+      <img src="https://images.unsplash.com/photo-1521170665346-3f21e2291d8b" alt="Синевир">
+      <h2>Чорногірський хребет</h2>
+      <p>6 днів, трансфер включено</p>
+      <span class="price">₴1 800</span>
+      <button class="order-btn">Замовити</button>
+    </div>
+  </div>
+
+  <!-- Модальне вікно -->
+  <div class="modal hidden" id="orderModal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>Форма замовлення</h2>
+      <input type="text" placeholder="Ваше ім'я">
+      <input type="tel" placeholder="Ваш номер телефону">
+      <textarea placeholder="Коментар" rows="4"></textarea>
+      <button class="submit-btn">Відправити</button>
+    </div>
+  </div>
+
+  <script src="p.js"></script>
+</body>
+</html>
